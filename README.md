@@ -2,47 +2,51 @@
   <img src="https://github.com/user-attachments/assets/da944ba0-b226-4238-b483-12bd755c6cd4" alt="alerTime">
 </p>
 
-# Angular Application - Setup and Execution Guide
+# Aplicación Angular - Guía de Instalación
 
-## Prerequisites
-Before running this application, ensure you have the following installed:
+## Prerrequisitos
+Antes de ejecutar esta aplicación, asegúrate de tener lo siguiente instalado:
 
-1. **Node.js** (Recommended: latest LTS version)
-   - Download and install from [Node.js official website](https://nodejs.org/)
-   - Verify installation:
+1. **Node.js** (Recomendado: última versión LTS)
+   - Descarga e instala desde [el sitio oficial de Node.js](https://nodejs.org/)
+   - Verifica la instalación:
      ```sh
      node -v
      ```
 
-2. **Angular CLI** (Recommended: latest version)
-   - Install globally using npm:
+2. **Angular CLI** (Recomendado: última versión)
+   - Instala globalmente usando npm:
      ```sh
      npm install -g @angular/cli
      ```
-   - Verify installation:
+   - Verifica la instalación:
      ```sh
      ng version
      ```
 
-## Installation
-Clone the repository and navigate to the project directory:
+## Instalación
+Clona el repositorio y navega al directorio del proyecto:
 
 ```sh
-git clone <repository-url>
-cd <project-directory>
+git clone <url-del-repositorio>
+cd <directorio-del-proyecto>
 ```
 
-Install dependencies:
+Instala las dependencias:
 
 ```sh
 npm install
 ```
 
-## Running the Application
-Start the development server:
+## Ejecutando la aplicación
+Inicia el servidor de desarrollo:
 
 ```sh
 ng serve
 ```
 
+## Demo en Heroku
+Para facilitar las pruebas, hemos desplegado la última versión de la aplicación en Heroku:
 
+1. [AlerTime](https://alertime-b4e9d800837f.herokuapp.com)
+2. [AlerTime](https://alertime-b4e9d800837f.herokuapp.com/functional-login) (Con validaciones en los inputs para forzar la pantalla de error en el login)
