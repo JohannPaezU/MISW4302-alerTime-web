@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/da944ba0-b226-4238-b483-12bd755c6cd4" alt="alerTime">
+  <img src="https://github.com/user-attachments/assets/f2b906de-5e9b-48c1-aeb2-bb4029ccce96" alt="alerTime">
 </p>
 
 # Aplicación Angular - Guía de Instalación
