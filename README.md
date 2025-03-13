@@ -50,3 +50,8 @@ Para facilitar las pruebas, hemos desplegado la última versión de la aplicaci�
 
 1. [AlerTime](https://alertime-b4e9d800837f.herokuapp.com)
 2. [AlerTime](https://alertime-b4e9d800837f.herokuapp.com/functional-login) (Con validaciones en los inputs para forzar la pantalla de error en el login)
+
+## Video
+
+https://github.com/user-attachments/assets/1f4ab35b-eaa7-48b7-8256-c99541459073
+
