@@ -1,0 +1,36 @@
+<div class="share-main-container">
+  <div class="share-header">
+    <h2>Mis Alarmas</h2>
+  </div>
+  <div class="share-container">
+    <div class="title-container">
+        <h3 class="titulo">Compartir por:</h3>
+    </div>    
+    <div class="share-item">
+        <div class="share-details">
+            <input class="form-check-input radio" type="radio" name="share-method" id="correo" checked>
+            <span class="share-span">Correo</span>
+        </div>
+        <input class="email-input" type="email">
+    </div>
+    <div class="share-item">
+        <div class="share-details">
+            <input class="form-check-input radio" type="radio" name="share-method" id="copiar">
+            <span class="share-span">Copiar enlace</span>
+        </div>
+    </div>
+    <div class="share-item" style="align-items: unset !important;">
+        <div class="share-details">
+            <input class="form-check-input radio" type="radio" name="share-method" id="qr">
+            <span class="share-span">Código QR</span>
+        </div>
+        <img src="/assets/qr_code.png" alt="qr-code" class="qr-code" style="width: 200px; height: auto;">
+    </div>
+  </div>
+
+  <div class="share-button-container">
+    <button class="share-button" (click)="navigateToAlarms()">
+      COMPARTIR
+    </button>
+  </div>  
+</div>

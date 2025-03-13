@@ -1,0 +1,139 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.components-container {
+    background-color: white;
+    max-width: 600px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    border-radius: 28px 28px 0 0;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.buttons-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.register-button {
+    display: block;
+    width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.25px;
+    text-transform: capitalize;
+    background: #E85B81;
+    border: 3px solid #E85B81;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.register-button:disabled {
+    background-color: #ccc;
+    border: 3px solid #666;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+.cancel-button {
+    display: block;
+    width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    color: #E85B81;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.25px;
+    text-transform: capitalize;
+    background: #FFFFFF;
+    border: 3px solid #E85B81;
+    font-weight: bold;
+}
+
+.register-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+.input-container label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
+    transition: 0.3s ease-in-out;
+    background: white;
+    padding: 0 5px;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.input-container.invalid input {
+    border: 1px solid red;
+}
+
+.input-container.invalid input:focus + label,
+.input-container.invalid input:not(:placeholder-shown) + label {
+    color: red;
+}

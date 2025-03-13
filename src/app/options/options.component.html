@@ -1,0 +1,31 @@
+<div class="layout">
+  <div class="sidebar">
+    <div class="logo">
+      <img src="assets/transparent-logo.png" alt="Logo">
+    </div>
+    <div class="menu">
+      <div class="menu-item" routerLink="/options/home" routerLinkActive="active">
+        <i class="fas fa-home"></i> Inicio
+      </div>      
+      <div class="menu-item" routerLink="/options/sync-calendar" routerLinkActive="active">
+        <i class="fas fa-calendar-alt"></i> Sincronizar calendario
+      </div>
+      <div class="menu-item" routerLink="/options/alarms" routerLinkActive="active">
+        <i class="fas fa-share-alt"></i> Compartir alarmas
+      </div>
+      <hr>
+      <div class="menu-item" (click)="logout()">
+        <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+      </div>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="header">
+      <span class="user-info">¡Hola, {{user?.firstName}} {{user?.lastName}}!</span>
+      <i class="fas fa-user-circle user-icon"></i>
+    </div>
+    <div class="page-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

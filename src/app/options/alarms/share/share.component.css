@@ -1,0 +1,150 @@
+.share-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.share-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.share-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.share-button {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.25px;
+    text-transform: capitalize;
+    background: #E85B81;
+    border: 3px solid #E85B81;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+}
+
+.title {
+    font-weight: bold;    
+}
+
+.input-correo {
+    width: 200px;
+    height: 20px;
+    background-color: #e5dce5;
+    border: none;
+    border-radius: 5px;
+}
+
+.codigo-qr {
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codigo-qr::before {
+    content: '\25B2\25A0\25CF';
+    font-size: 24px;
+    color: #808080;
+}
+
+.radio:checked {
+    background-color:#65558F !important;
+    border-color:#65558F !important;
+}
+
+.share-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    gap: 20px;
+}
+
+.share-details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.email-input {
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 1px solid #49454F;
+    background-color: #E6E0E9;
+    color: #49454F;
+    width: 100%;
+}
+
+.qr-box {
+    width: 200px;
+    height: 200px;
+    background: #ddd;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid gray;
+    position: absolute;
+    top: 10px;
+  }
+
+  .square {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+  }
